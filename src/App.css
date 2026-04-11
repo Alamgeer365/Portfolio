@@ -75,9 +75,7 @@ button {
 }
 
 .site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
   gap: 18px;
   padding: 24px 30px;
   border-bottom: 1px solid var(--border);
@@ -85,9 +83,17 @@ button {
   backdrop-filter: blur(10px);
 }
 
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .brand-block {
   display: grid;
   gap: 8px;
+  min-width: 0;
 }
 
 .brand-topline {
@@ -115,9 +121,15 @@ button {
 }
 
 .header-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.header-controls {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex: 0 0 auto;
 }
 
 .brand-name,
@@ -154,6 +166,29 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
 }
 
 .nav-item {
@@ -917,31 +952,53 @@ button {
   }
 
   .site-header {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 18px;
   }
 
+  .header-top {
+    align-items: flex-start;
+  }
+
   .header-actions {
-    width: 100%;
-    align-items: stretch;
-    flex-direction: column;
+    display: grid;
+    gap: 14px;
   }
 
   .brand-topline {
     align-items: flex-start;
   }
 
+  .header-controls {
+    justify-content: flex-end;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
   .main-nav {
+    display: none;
     width: 100%;
+    padding: 14px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface-soft);
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .main-nav.menu-open {
+    display: grid;
   }
 
   .nav-item {
-    flex: 1 1 calc(50% - 10px);
+    width: 100%;
+    justify-content: flex-start;
+    padding: 12px 14px;
   }
 
-  .theme-toggle {
-    width: 100%;
+  .brand-block {
+    max-width: calc(100% - 120px);
   }
 
   .main-content {
