@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 function getInitialTheme() {
-  if (typeof window === "undefined") return "light";
+  if (typeof window === "undefined") return "dark";
   const savedTheme = window.localStorage.getItem("portfolio-theme");
   if (savedTheme === "light" || savedTheme === "dark") return savedTheme;
-  return "light";
+  return "dark";
 }
 
 function useTheme() {
