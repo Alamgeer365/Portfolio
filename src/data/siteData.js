@@ -46,7 +46,7 @@ export const projects = [
     description:
       "A responsive developer portfolio built to present my profile, skills, projects, resume, and contact details in a clean and professional way.",
     tech: ["React.js", "CSS", "JavaScript", "Responsive Design"],
-    link: "https://github.com/Alamgeer365/Portfolio",
+    link: null,
   },
   {
     name: "HealthMate Go",
