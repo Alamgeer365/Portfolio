@@ -11,8 +11,8 @@ function AboutPage({ highlights, profile }) {
           <h2>Developer Profile</h2>
           <p>{profile.intro}</p>
           <p>
-            I enjoy working on full-stack applications where frontend quality, backend structure,
-            and practical functionality all matter together.
+            I enjoy working on projects where the interface looks clean, the backend stays organized,
+            and the final result feels practical to use.
           </p>
         </article>
 

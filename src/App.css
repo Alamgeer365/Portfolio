@@ -1,28 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #edf2f8;
+  --bg: #f3efe8;
   --surface: #ffffff;
-  --surface-soft: #f7f9fc;
-  --border: #d7e1ec;
-  --text: #122033;
-  --muted: #5d6d81;
-  --primary: #1f5c8f;
-  --primary-dark: #17476f;
-  --accent: #f3c84a;
-  --shadow: 0 18px 38px rgba(28, 48, 74, 0.1);
+  --surface-soft: #f6f1ea;
+  --border: #ddd3c4;
+  --text: #1f1b18;
+  --muted: #6b625a;
+  --primary: #3f342c;
+  --primary-dark: #2b231d;
+  --accent: #d8a63a;
+  --shadow: 0 18px 38px rgba(44, 36, 30, 0.1);
 }
 
 :root[data-theme="dark"] {
-  --bg: #0f1722;
-  --surface: #16202c;
-  --surface-soft: #1d2a38;
-  --border: #28384a;
-  --text: #edf3f9;
-  --muted: #9fb0c2;
-  --primary: #73b3ea;
-  --primary-dark: #5597d0;
-  --accent: #f3c84a;
+  --bg: #171311;
+  --surface: #221d1a;
+  --surface-soft: #2c2622;
+  --border: #3e3530;
+  --text: #f4eee6;
+  --muted: #c0b5a8;
+  --primary: #f0c15b;
+  --primary-dark: #d7a53e;
+  --accent: #f0c15b;
   --shadow: 0 18px 38px rgba(0, 0, 0, 0.28);
 }
 
@@ -34,8 +34,8 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top right, rgba(243, 200, 74, 0.18), transparent 18rem),
-    linear-gradient(180deg, #eff4f9 0%, #e7edf5 100%);
+    radial-gradient(circle at top right, rgba(216, 166, 58, 0.16), transparent 18rem),
+    linear-gradient(180deg, #f4f0ea 0%, #ece6dd 100%);
   color: var(--text);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: background 180ms ease, color 180ms ease;
@@ -43,8 +43,8 @@ body {
 
 :root[data-theme="dark"] body {
   background:
-    radial-gradient(circle at top right, rgba(243, 200, 74, 0.14), transparent 18rem),
-    linear-gradient(180deg, #0f1722 0%, #121c28 100%);
+    radial-gradient(circle at top right, rgba(240, 193, 91, 0.12), transparent 18rem),
+    linear-gradient(180deg, #171311 0%, #1c1714 100%);
 }
 
 * {
@@ -147,7 +147,7 @@ button {
 }
 
 :root[data-theme="dark"] .nav-item.active {
-  color: #0f1722;
+  color: #1f1b18;
 }
 
 .theme-toggle {
@@ -206,14 +206,14 @@ button {
 .hero-panel {
   padding: 34px;
   background:
-    linear-gradient(135deg, rgba(243, 200, 74, 0.13), rgba(255, 255, 255, 0) 42%),
-    linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+    linear-gradient(135deg, rgba(216, 166, 58, 0.14), rgba(255, 255, 255, 0) 42%),
+    linear-gradient(180deg, #ffffff 0%, #fcf7f0 100%);
 }
 
 :root[data-theme="dark"] .hero-panel {
   background:
-    linear-gradient(135deg, rgba(243, 200, 74, 0.13), rgba(255, 255, 255, 0) 42%),
-    linear-gradient(180deg, #16202c 0%, #1a2734 100%);
+    linear-gradient(135deg, rgba(240, 193, 91, 0.12), rgba(255, 255, 255, 0) 42%),
+    linear-gradient(180deg, #221d1a 0%, #29221e 100%);
 }
 
 .page-label {
@@ -299,13 +299,13 @@ button {
 .photo-panel {
   padding: 24px;
   background:
-    linear-gradient(180deg, rgba(243, 200, 74, 0.12), rgba(255, 255, 255, 0) 30%),
-    linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+    linear-gradient(180deg, rgba(216, 166, 58, 0.14), rgba(255, 255, 255, 0) 30%),
+    linear-gradient(180deg, #ffffff 0%, #fcf7f0 100%);
 }
 
 :root[data-theme="dark"] .photo-panel,
 :root[data-theme="dark"] .project-card {
-  background: linear-gradient(180deg, #16202c 0%, #1a2734 100%);
+  background: linear-gradient(180deg, #221d1a 0%, #29221e 100%);
 }
 
 .photo-frame {
@@ -313,10 +313,10 @@ button {
   padding: 18px;
   border-radius: 30px;
   background:
-    linear-gradient(145deg, rgba(31, 92, 143, 0.16), rgba(243, 200, 74, 0.34)),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(240, 244, 250, 0.9));
+    linear-gradient(145deg, rgba(63, 52, 44, 0.12), rgba(216, 166, 58, 0.34)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(246, 241, 234, 0.94));
   box-shadow:
-    0 24px 44px rgba(31, 92, 143, 0.16),
+    0 24px 44px rgba(63, 52, 44, 0.16),
     inset 0 0 0 1px rgba(255, 255, 255, 0.7);
 }
 
@@ -325,7 +325,7 @@ button {
   position: absolute;
   inset: 12px;
   border-radius: 24px;
-  border: 1px solid rgba(31, 92, 143, 0.14);
+  border: 1px solid rgba(63, 52, 44, 0.14);
 }
 
 .photo-frame::after {
@@ -357,7 +357,7 @@ button {
 :root[data-theme="dark"] .photo-placeholder {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.08), transparent 35%),
-    linear-gradient(180deg, #243446 0%, #1b2835 100%);
+    linear-gradient(180deg, #342d29 0%, #26211d 100%);
 }
 
 .profile-photo {
@@ -547,7 +547,7 @@ button {
 .project-card {
   display: grid;
   gap: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fcf7f0 100%);
 }
 
 .project-link {

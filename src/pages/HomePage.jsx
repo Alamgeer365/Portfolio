@@ -26,8 +26,8 @@ function HomePage({ navigate, profile }) {
         </div>
         <div className="photo-info">
           <p className="photo-note">
-            Full-stack developer with a focus on building clean interfaces, strong backend systems,
-            and practical product-based web applications.
+            I like building websites and web apps that feel simple, useful, and reliable from both
+            the frontend and backend side.
           </p>
           <div className="photo-meta">
             <div>
@@ -58,16 +58,16 @@ function HomePage({ navigate, profile }) {
         <article className="content-card">
           <h2>Project Focus</h2>
           <p>
-            MERN applications, Django REST API projects, payment integration, chatbot features, and
-            full-stack product-style builds.
+            I mostly work on MERN projects, Django REST API applications, payment features, chatbot
+            integrations, and other full-stack builds.
           </p>
         </article>
 
         <article className="content-card">
           <h2>Professional Presence</h2>
           <p>
-            GitHub, LinkedIn, LeetCode, resume access, and direct contact information are all
-            included as separate pages in this portfolio.
+            This portfolio also keeps my GitHub, LinkedIn, LeetCode, resume, and contact details in
+            one place so everything is easy to find.
           </p>
         </article>
       </section>

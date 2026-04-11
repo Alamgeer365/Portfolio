@@ -1,11 +1,11 @@
 export const profile = {
   name: "Alamgeer Shekh",
   title: "Full-Stack Developer",
-  tagline: "Building practical web applications with clean frontend experiences and strong backend systems.",
+  tagline: "I build full-stack web applications with a focus on clean UI, solid backend logic, and practical features.",
   intro:
-    "I work across the full stack and enjoy building products that are useful, clear, and production-minded. My focus is on React-based interfaces, backend APIs, database-driven applications, and real-world project delivery.",
-  email: "alamgeer.shekh05@gmail.com",
-  phone: "+91 93695 37482",
+    "I like working on projects from both sides of the stack. On the frontend, I care about layout, clarity, and user flow. On the backend, I focus on APIs, data handling, and features that make the product actually useful.",
+  email: "alamgeershekh365@gmail.com",
+  phone: "8127340413",
   location: "India",
   github: "https://github.com/Alamgeer365",
   linkedin: "https://www.linkedin.com/in/alamgeer-shekh-345a8331b",
@@ -34,9 +34,9 @@ export const skillGroups = [
 ];
 
 export const aboutHighlights = [
-  "Full-stack development across React, MERN, Django, and REST APIs.",
-  "Comfortable building both interface-heavy and backend-driven applications.",
-  "Project work includes authentication, APIs, databases, payments, and chatbot integration.",
+  "Hands-on experience with React, MERN, Django, and REST APIs.",
+  "Comfortable working on both user interface and backend logic.",
+  "Built projects with payments, databases, authentication, and chatbot features.",
 ];
 
 export const projects = [
@@ -44,7 +44,7 @@ export const projects = [
     name: "Portfolio Website",
     type: "Personal Portfolio Project",
     description:
-      "A responsive developer portfolio built to present my profile, skills, projects, resume, and contact details in a clean and professional way.",
+      "A personal portfolio website built to present my background, technical skills, projects, resume, and contact information in one place.",
     tech: ["React.js", "CSS", "JavaScript", "Responsive Design"],
     link: null,
   },
@@ -52,7 +52,7 @@ export const projects = [
     name: "HealthMate Go",
     type: "MERN Stack Healthcare Project",
     description:
-      "A health-focused web application built with the MERN stack. It includes practical product structure and extends into advanced features like Stripe payment integration and Gemini chatbot support.",
+      "A healthcare web application built with the MERN stack. It includes user-focused features and also integrates Stripe payments and a Gemini chatbot.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Gemini Chatbot"],
     link: null,
   },
@@ -60,7 +60,7 @@ export const projects = [
     name: "Tech Path Finder",
     type: "MERN Stack Career Guidance Project",
     description:
-      "A MERN-based platform designed to help users explore technical career directions through a structured and user-friendly web experience.",
+      "A MERN-based platform made to help users explore technology career paths through a clear and simple web experience.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
     link: null,
   },
@@ -68,7 +68,7 @@ export const projects = [
     name: "Blogging Web Application",
     type: "Django REST Framework + React.js",
     description:
-      "A blogging application built with Django REST Framework on the backend and React.js on the frontend, focused on API-driven content flow and modern web app structure.",
+      "A blogging application built with Django REST Framework and React.js, using an API-driven structure for managing and displaying content.",
     tech: ["Django", "Django REST Framework", "React.js", "SQL"],
     link: null,
   },
