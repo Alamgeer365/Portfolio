@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import {
   aboutHighlights,
@@ -25,6 +26,8 @@ function App() {
     currentPath,
     navigate,
     profile,
+    profileLinks,
+    projects,
   };
 
   const pageMap = {
@@ -47,6 +50,7 @@ function App() {
         toggleTheme={toggleTheme}
       />
       <main className="main-content">{pageMap[currentPath] ?? pageMap["/"]}</main>
+      <Footer navigate={navigate} profile={profile} routes={routes} />
     </div>
   );
 }

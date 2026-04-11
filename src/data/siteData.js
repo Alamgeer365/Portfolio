@@ -1,9 +1,9 @@
 export const profile = {
   name: "Alamgeer Shekh",
   title: "Full-Stack Developer",
-  tagline: "I build full-stack web applications with a focus on clean UI, solid backend logic, and practical features.",
+  tagline: "I build web applications that are clean to use, practical in real life, and solid from frontend to backend.",
   intro:
-    "I like working on projects from both sides of the stack. On the frontend, I care about layout, clarity, and user flow. On the backend, I focus on APIs, data handling, and features that make the product actually useful.",
+    "I enjoy working on the full flow of a product. I like making the interface feel clear and comfortable, and I also enjoy building the backend logic that makes the whole thing work properly.",
   email: "alamgeershekh365@gmail.com",
   phone: "8127340413",
   location: "India",
@@ -11,6 +11,9 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/alamgeer-shekh-345a8331b",
   leetcode: "https://leetcode.com/u/AlamgeerShekh/",
   resume: "/Alamgeer_Shekh_Resume.pdf",
+  shortBio:
+    "I am a full-stack developer who enjoys building useful products with React, MERN, and Django. I care about clean structure, responsive UI, and backend features that make the final project feel complete.",
+  availability: "Open to internships, freelance work, and junior developer roles",
 };
 
 export const routes = [
@@ -34,9 +37,9 @@ export const skillGroups = [
 ];
 
 export const aboutHighlights = [
-  "Hands-on experience with React, MERN, Django, and REST APIs.",
-  "Comfortable working on both user interface and backend logic.",
-  "Built projects with payments, databases, authentication, and chatbot features.",
+  "Built full-stack projects using React, MERN, Django, and REST APIs.",
+  "Comfortable handling both the user-facing side and the backend side of a product.",
+  "Worked on practical features like payments, authentication, dashboards, and chatbot integration.",
 ];
 
 export const projects = [
@@ -44,7 +47,7 @@ export const projects = [
     name: "Portfolio Website",
     type: "Personal Portfolio Project",
     description:
-      "A personal portfolio website built to present my background, technical skills, projects, resume, and contact information in one place.",
+      "A portfolio website designed to present my work, technical background, resume, and contact details in a cleaner and more personal way.",
     tech: ["React.js", "CSS", "JavaScript", "Responsive Design"],
     link: null,
   },
@@ -52,7 +55,7 @@ export const projects = [
     name: "HealthMate Go",
     type: "MERN Stack Healthcare Project",
     description:
-      "A healthcare web application built with the MERN stack. It includes user-focused features and also integrates Stripe payments and a Gemini chatbot.",
+      "A MERN stack healthcare project where I worked on user-focused flows along with Stripe payments and Gemini chatbot integration.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Gemini Chatbot"],
     link: null,
   },
@@ -60,7 +63,7 @@ export const projects = [
     name: "Tech Path Finder",
     type: "MERN Stack Career Guidance Project",
     description:
-      "A MERN-based platform made to help users explore technology career paths through a clear and simple web experience.",
+      "A MERN-based platform built to help users explore technology career paths through a simple and guided web experience.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
     link: null,
   },
@@ -68,7 +71,7 @@ export const projects = [
     name: "Blogging Web Application",
     type: "Django REST Framework + React.js",
     description:
-      "A blogging application built with Django REST Framework and React.js, using an API-driven structure for managing and displaying content.",
+      "A blogging web application built with Django REST Framework and React.js using an API-driven setup for managing and showing content smoothly.",
     tech: ["Django", "Django REST Framework", "React.js", "SQL"],
     link: null,
   },

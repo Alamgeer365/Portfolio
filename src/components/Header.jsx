@@ -4,8 +4,14 @@ function Header({ currentPath, navigate, profile, routes, theme, toggleTheme }) 
   return (
     <header className="site-header">
       <div className="brand-block">
-        <p className="brand-name">{profile.name}</p>
-        <p className="brand-role">{profile.title}</p>
+        <div className="brand-topline">
+          <span className="brand-mark">AS</span>
+          <div>
+            <p className="brand-name">{profile.name}</p>
+            <p className="brand-role">{profile.title}</p>
+          </div>
+        </div>
+        <p className="brand-status">{profile.availability}</p>
       </div>
 
       <div className="header-actions">
