@@ -18,9 +18,16 @@ function Footer({ navigate, profile, routes }) {
             <h3>Pages</h3>
             <div className="footer-link-list">
               {routes.map((route) => (
-                <button key={route.path} type="button" onClick={() => navigate(route.path)}>
+                <a
+                  key={route.path}
+                  href={route.path}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    navigate(route.path);
+                  }}
+                >
                   {route.label}
-                </button>
+                </a>
               ))}
             </div>
           </div>

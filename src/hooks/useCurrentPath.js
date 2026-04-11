@@ -14,7 +14,11 @@ function useCurrentPath(routes) {
   const [currentPath, setCurrentPath] = useState(() => getCurrentPath(routes));
 
   useEffect(() => {
-    const onPopState = () => setCurrentPath(getCurrentPath(routes));
+    const onPopState = () => {
+      setCurrentPath(getCurrentPath(routes));
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, [routes]);
@@ -23,6 +27,7 @@ function useCurrentPath(routes) {
     if (path === currentPath) return;
     window.history.pushState({}, "", path);
     setCurrentPath(path);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return { currentPath, navigate };
