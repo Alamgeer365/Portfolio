@@ -13,7 +13,7 @@ export const profile = {
   resume: "/Alamgeer_Shekh_Resume.pdf",
   shortBio:
     "I am a full-stack developer who enjoys building useful products with React, MERN, and Django. I care about clean structure, responsive UI, and backend features that make the final project feel complete.",
-  availability: "Open to internships, freelance work, and junior developer roles",
+  availability: "Looking for full-time software developer opportunities",
 };
 
 export const routes = [
