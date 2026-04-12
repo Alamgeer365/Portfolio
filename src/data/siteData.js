@@ -21,6 +21,8 @@ export const routes = [
   { path: "/about", label: "About" },
   { path: "/skills", label: "Skills" },
   { path: "/projects", label: "Projects" },
+  { path: "/experience", label: "Experience" },
+  { path: "/education", label: "Education" },
   { path: "/resume", label: "Resume" },
   { path: "/contact", label: "Contact" },
 ];
@@ -39,7 +41,34 @@ export const skillGroups = [
 export const aboutHighlights = [
   "Built full-stack projects using React, MERN, Django, and REST APIs.",
   "Comfortable handling both the user-facing side and the backend side of a product.",
+  "Completed a 6-month software developer internship with hands-on frontend, backend, and Figma work.",
   "Worked on practical features like payments, authentication, dashboards, and chatbot integration.",
+];
+
+export const experience = [
+  {
+    company: "Digiquest Consultancy Services Pvt. Ltd.",
+    role: "Software Developer Intern",
+    duration: "6-Month Internship",
+    summary:
+      "Worked across design, frontend, and backend tasks to build practical web application features in a collaborative environment.",
+    responsibilities: [
+      "Created and refined interface ideas in Figma before implementation.",
+      "Built frontend screens and components using React.js and Tailwind CSS.",
+      "Worked on backend APIs and application logic using Django and Django REST Framework.",
+    ],
+    tech: ["Figma", "React.js", "Tailwind CSS", "Django", "Django REST Framework"],
+  },
+];
+
+export const education = [
+  {
+    institution: "Dr. A.P.J. Abdul Kalam Technical University",
+    degree: "B.Tech in Computer Science and Engineering",
+    score: "CGPA: 8.0",
+    summary:
+      "Completed my bachelor's degree in Computer Science and Engineering with a strong academic foundation in software development and core computer science subjects.",
+  },
 ];
 
 export const projects = [
