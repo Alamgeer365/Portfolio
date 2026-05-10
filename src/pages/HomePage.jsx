@@ -3,10 +3,11 @@ import alamgeerPhoto from "../assets/alamgeer-photo.png";
 function HomePage({ navigate, profile, profileLinks, projects }) {
   const featuredProjects = projects.slice(0, 3);
   const focusAreas = [
-    "React and responsive frontend development",
-    "MERN stack applications with practical product features",
-    "Django and Django REST Framework backend work",
-    "Payments, APIs, dashboards, and chatbot integrations",
+    "Full-stack development with MERN and Django REST Framework",
+    "Data cleaning and exploratory analysis with Python",
+    "SQL queries for business questions, trends, and customer insights",
+    "Power BI and Excel for reporting and visual communication",
+    "Hands-on projects across analytics dashboards and web applications",
   ];
 
   return (
@@ -44,8 +45,8 @@ function HomePage({ navigate, profile, profileLinks, projects }) {
           </div>
           <div className="photo-info">
             <p className="photo-note">
-              I like building websites and web apps that feel simple, useful, and reliable from both
-              the frontend and backend side.
+              I like building useful web applications and also working with data to find patterns,
+              organize information, and present insights in a clear and practical way.
             </p>
             <div className="photo-meta">
               <div>
@@ -54,7 +55,7 @@ function HomePage({ navigate, profile, profileLinks, projects }) {
               </div>
               <div>
                 <span>Primary Focus</span>
-                <strong>MERN and Django</strong>
+                <strong>Full-Stack Development & Data Analysis</strong>
               </div>
             </div>
           </div>
@@ -65,7 +66,7 @@ function HomePage({ navigate, profile, profileLinks, projects }) {
         <div className="section-intro section-row">
           <div>
             <p className="page-label">What I Do</p>
-            <h2>Clear full-stack work across frontend, backend, and real product features.</h2>
+            <h2>Full-stack product building backed by structured analysis and practical insights.</h2>
           </div>
           <button type="button" className="ghost-button" onClick={() => navigate("/skills")}>
             View Skills
@@ -74,16 +75,16 @@ function HomePage({ navigate, profile, profileLinks, projects }) {
 
         <div className="service-grid">
           <article className="content-card">
-            <h2>Frontend Development</h2>
-            <p>I build React interfaces with cleaner layouts, responsive behavior, and straightforward user flow.</p>
+            <h2>Full-Stack Development</h2>
+            <p>I build applications with React, MERN, and Django REST Framework, covering frontend, backend APIs, and database-connected features.</p>
           </article>
           <article className="content-card">
-            <h2>Backend Development</h2>
-            <p>I work with Node.js, Express, Django, and REST APIs to create backend systems that stay practical and usable.</p>
+            <h2>Data Analysis & SQL</h2>
+            <p>I work with SQL and exploratory analysis techniques to answer business questions, detect patterns, and summarize key findings.</p>
           </article>
           <article className="content-card">
-            <h2>Project Building</h2>
-            <p>I like taking projects from UI to API to database so the final result feels like a complete product, not just a demo.</p>
+            <h2>Visualization & Reporting</h2>
+            <p>I create charts, dashboards, and report-friendly views that make insights easier to communicate clearly to others.</p>
           </article>
         </div>
       </section>
@@ -92,7 +93,7 @@ function HomePage({ navigate, profile, profileLinks, projects }) {
         <div className="section-intro section-row">
           <div>
             <p className="page-label">Featured Work</p>
-            <h2>Projects that reflect my stack and interests.</h2>
+            <h2>Projects that reflect both my product-building experience and analytics practice.</h2>
           </div>
           <button type="button" className="ghost-button" onClick={() => navigate("/projects")}>
             See All Projects

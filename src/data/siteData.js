@@ -1,19 +1,19 @@
 export const profile = {
   name: "Alamgeer Shekh",
-  title: "Full-Stack Developer",
-  tagline: "I build web applications that are clean to use, practical in real life, and solid from frontend to backend.",
+  title: "Full-Stack Developer & Data Analyst Enthusiast",
+  tagline: "I build full-stack web applications with MERN and Django REST Framework, and I also turn data into clear insights through SQL, Python, Excel, and dashboards.",
   intro:
-    "I enjoy working on the full flow of a product. I like making the interface feel clear and comfortable, and I also enjoy building the backend logic that makes the whole thing work properly.",
+    "I enjoy building practical digital products end to end and also working with data to discover patterns, clean information, and present insights in a way that supports better decisions.",
   email: "alamgeershekh365@gmail.com",
   phone: "8127340413",
-  location: "India",
+  location: "Kushinagar, Uttar Pradesh",
   github: "https://github.com/Alamgeer365",
   linkedin: "https://www.linkedin.com/in/alamgeer-shekh-345a8331b",
   leetcode: "https://leetcode.com/u/AlamgeerShekh/",
   resume: "/Alamgeer_Shekh_Resume.pdf",
   shortBio:
-    "I am a full-stack developer who enjoys building useful products with React, MERN, and Django. I care about clean structure, responsive UI, and backend features that make the final project feel complete.",
-  availability: "Looking for full-time software developer opportunities",
+    "I am a full-stack developer with hands-on experience in MERN and Django REST Framework, and a growing analytics profile built through SQL, Python, Excel, Power BI, and data projects.",
+  availability: "Open to full-stack developer and data analyst opportunities",
 };
 
 export const routes = [
@@ -28,80 +28,94 @@ export const routes = [
 ];
 
 export const skillGroups = [
-  { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "React.js"] },
+  { title: "Programming", items: ["Python", "SQL", "Java"] },
   {
-    title: "Backend",
-    items: ["Django", "Django REST Framework", "Node.js", "Express.js"],
+    title: "Data Analysis",
+    items: ["Pandas", "NumPy", "Matplotlib", "Exploratory Data Analysis"],
   },
-  { title: "Database", items: ["MongoDB", "SQL", "PostgreSQL"] },
-  { title: "Languages & Core", items: ["Python", "Java", "OOPs"] },
-  { title: "Tools", items: ["Git", "GitHub", "MERN Stack", "Stripe Integration"] },
+  { title: "Visualization & Reporting", items: ["Power BI", "Microsoft Excel", "Dashboarding"] },
+  { title: "Databases", items: ["MySQL", "MongoDB"] },
+  { title: "Tools", items: ["Jupyter Notebook", "VS Code", "Git", "GitHub"] },
+  { title: "Web & API Exposure", items: ["HTML5", "CSS3", "React.js", "Django REST Framework"] },
 ];
 
 export const aboutHighlights = [
-  "Built full-stack projects using React, MERN, Django, and REST APIs.",
-  "Comfortable handling both the user-facing side and the backend side of a product.",
-  "Completed a 6-month software developer internship with hands-on frontend, backend, and Figma work.",
-  "Worked on practical features like payments, authentication, dashboards, and chatbot integration.",
+  "Built hands-on analysis projects using Python, SQL, Excel, and Power BI.",
+  "Comfortable with data cleaning, exploratory analysis, trend discovery, and visual reporting.",
+  "Worked with real datasets to find patterns in content, sales, customer behavior, and growth.",
+  "Built full-stack applications using MERN, React.js, and Django REST Framework with practical product features.",
 ];
 
 export const experience = [
   {
     company: "Digiquest Consultancy Services Pvt. Ltd.",
     role: "Software Developer Intern",
-    duration: "6-Month Internship",
+    duration: "Mar 2025 - Sep 2025",
     summary:
-      "Worked across design, frontend, and backend tasks to build practical web application features in a collaborative environment.",
+      "Contributed to a healthcare web application by building frontend components, backend APIs, and database-connected features in a collaborative environment.",
     responsibilities: [
-      "Created and refined interface ideas in Figma before implementation.",
-      "Built frontend screens and components using React.js and Tailwind CSS.",
-      "Worked on backend APIs and application logic using Django and Django REST Framework.",
+      "Developed React components and user-facing flows for a healthcare product.",
+      "Wrote REST APIs using Django REST Framework to support application functionality.",
+      "Handled data storage and retrieval with MySQL for application features and records.",
     ],
-    tech: ["Figma", "React.js", "Tailwind CSS", "Django", "Django REST Framework"],
+    tech: ["React.js", "Django REST Framework", "MySQL", "REST APIs"],
+  },
+  {
+    company: "Infosys Springboard",
+    role: "Data Visualization Virtual Intern",
+    duration: "Apr 2026 - Present",
+    summary:
+      "Strengthening core analytics skills through dataset work, reporting practice, and visualization-focused exercises.",
+    responsibilities: [
+      "Practicing SQL queries to extract, filter, and summarize dataset information.",
+      "Cleaning and preparing data using Pandas for better analysis quality.",
+      "Creating basic visualizations and report-oriented views using Power BI and Python tools.",
+    ],
+    tech: ["SQL", "Pandas", "Power BI", "Python"],
   },
 ];
 
 export const education = [
   {
-    institution: "Dr. A.P.J. Abdul Kalam Technical University",
+    institution: "Buddha Institute of Technology, Gorakhpur",
     degree: "B.Tech in Computer Science and Engineering",
-    score: "CGPA: 8.0",
+    score: "CGPA: 7.98 | Aug 2022 - Jun 2026",
     summary:
-      "Completed my bachelor's degree in Computer Science and Engineering with a strong academic foundation in software development and core computer science subjects.",
+      "Built a strong technical foundation in programming, problem solving, databases, and software systems while developing a growing interest in analytics and insight-driven work.",
   },
 ];
 
 export const projects = [
   {
+    name: "Netflix Data Analysis Using Python",
+    type: "Exploratory Data Analysis Project",
+    description:
+      "Analyzed a Netflix dataset to identify content trends, genre distribution, country-wise patterns, and post-2015 platform growth through cleaning, EDA, and visual storytelling.",
+    tech: ["Python", "Pandas", "NumPy", "Matplotlib", "EDA"],
+    link: null,
+  },
+  {
+    name: "SQL Retail Bookstore Analytics",
+    type: "SQL Analytics Project",
+    description:
+      "Designed a relational SQL analysis project to study sales, customer behavior, and inventory using joins, aggregations, CTEs, repeat customer logic, and low-stock tracking.",
+    tech: ["SQL", "MySQL", "CTEs", "Joins", "Aggregations"],
+    link: null,
+  },
+  {
+    name: "Health Mate Go",
+    type: "MERN Stack Healthcare Application",
+    description:
+      "Developed a full-stack healthcare application with JWT authentication, role-based access control, REST APIs, and dashboards for patient management and operational visibility.",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Dashboards"],
+    link: null,
+  },
+  {
     name: "Portfolio Website",
-    type: "Personal Portfolio Project",
+    type: "Personal Branding Project",
     description:
-      "A portfolio website designed to present my work, technical background, resume, and contact details in a cleaner and more personal way.",
+      "A responsive personal portfolio built to present my analytics profile, technical skills, resume, and projects in a structured and professional way.",
     tech: ["React.js", "CSS", "JavaScript", "Responsive Design"],
-    link: null,
-  },
-  {
-    name: "HealthMate Go",
-    type: "MERN Stack Healthcare Project",
-    description:
-      "A MERN stack healthcare project where I worked on user-focused flows along with Stripe payments and Gemini chatbot integration.",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "Gemini Chatbot"],
-    link: null,
-  },
-  {
-    name: "Tech Path Finder",
-    type: "MERN Stack Career Guidance Project",
-    description:
-      "A MERN-based platform built to help users explore technology career paths through a simple and guided web experience.",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    link: null,
-  },
-  {
-    name: "Blogging Web Application",
-    type: "Django REST Framework + React.js",
-    description:
-      "A blogging web application built with Django REST Framework and React.js using an API-driven setup for managing and showing content smoothly.",
-    tech: ["Django", "Django REST Framework", "React.js", "SQL"],
     link: null,
   },
 ];

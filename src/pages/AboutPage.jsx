@@ -8,11 +8,11 @@ function AboutPage({ highlights, profile }) {
 
       <div className="two-column-grid">
         <article className="content-card">
-          <h2>Developer Profile</h2>
+          <h2>Professional Profile</h2>
           <p>{profile.intro}</p>
           <p>
-            I enjoy working on projects where the interface looks clean, the backend stays organized,
-            and the final result feels practical to use.
+            I enjoy projects where I can either build the product itself or understand the story
+            inside the data, then turn that work into something practical, clear, and useful.
           </p>
         </article>
 

@@ -10,8 +10,8 @@ function ResumePage({ profile, profileLinks }) {
         <article className="content-card">
           <h2>Resume</h2>
           <p>
-            My resume is available directly from this portfolio and includes a compact overview of my
-            work, projects, skills, and professional background.
+            My resume is available directly from this portfolio and highlights my data analysis
+            skills, hands-on projects, technical background, and current career focus.
           </p>
           <a className="action-button" href={profile.resume} target="_blank" rel="noreferrer">
             Open Resume PDF

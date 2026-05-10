@@ -49,7 +49,7 @@ function Footer({ navigate, profile, routes }) {
 
       <div className="footer-bottom">
         <span>&copy; {new Date().getFullYear()} {profile.name}</span>
-        <span>Designed and developed by me with React and Vite</span>
+        <span>Built to present my analytics profile, projects, and resume with React and Vite</span>
       </div>
     </footer>
   );
